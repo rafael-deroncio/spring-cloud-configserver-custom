@@ -4,20 +4,20 @@ server.port: 8888
 
 spring.profiles.active: vault, git
 
-spring.cloud.config.server.vault.host: <APP_HOST>
-spring.cloud.config.server.vault.port: <APP_PORT>
+spring.cloud.config.server.vault.host: 127.0.0.1
+spring.cloud.config.server.vault.port: 8200
 spring.cloud.config.server.vault.scheme: http
 spring.cloud.config.server.vault.kv-version: 2
 spring.cloud.config.server.vault.authentication: TOKEN
-spring.cloud.config.server.vault.token: <APP_VAULT_TOKEN>
+spring.cloud.config.server.vault.token: root
 spring.cloud.config.server.vault.order: 1
 
-spring.cloud.config.server.git.uri: https://github.com/<GITHUB_USERNAME>/<GITHUB_REPOSITORY>
+spring.cloud.config.server.git.uri: https://github.com/<username>/<repository>
 spring.cloud.config.server.git.searchPaths: "{application}"
-spring.cloud.config.server.git.username: <GITHUB_USERMAIL>
-spring.cloud.config.server.git.password: <GITHUB_PERSONAL_TOKEN>
+spring.cloud.config.server.git.username: your_github_username
+spring.cloud.config.server.git.password: your_github_token
 spring.cloud.config.server.git.force-pull: true
 spring.cloud.config.server.git.order: 2
 
-spring.security.user.name: <APP_USERNAME>
-spring.security.user.password: <APP_PASSWORD>
+spring.security.user.name: your_username
+spring.security.user.password: your_password
