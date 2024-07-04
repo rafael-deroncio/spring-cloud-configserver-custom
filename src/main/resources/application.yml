@@ -1,0 +1,6 @@
+spring.application.name: configserver
+
+server.port: 8888
+
+spring.security.user.name: <APP_USERNAME>
+spring.security.user.password: <APP_PASSWORD>
