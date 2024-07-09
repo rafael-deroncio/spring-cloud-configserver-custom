@@ -1,5 +1,3 @@
-Here is the documentation for your project, formatted similarly to the provided example:
-
 # Config Server Project
 
 ## Description
