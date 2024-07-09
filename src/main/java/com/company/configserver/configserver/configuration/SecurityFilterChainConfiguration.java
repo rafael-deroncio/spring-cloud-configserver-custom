@@ -1,4 +1,4 @@
-package com.company.configserver.configserver;
+package com.company.configserver.configserver.configuration;
 
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 @EnableWebSecurity
 @EnableDiscoveryClient
-public class SecurityFilterChainConfig {
+public class SecurityFilterChainConfiguration {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http.authorizeHttpRequests(authorizeRequests -> authorizeRequests.anyRequest().authenticated())

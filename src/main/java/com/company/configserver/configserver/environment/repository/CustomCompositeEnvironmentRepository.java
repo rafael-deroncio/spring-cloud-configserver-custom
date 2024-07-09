@@ -1,4 +1,4 @@
-package com.company.configserver.configserver;
+package com.company.configserver.configserver.environment.repository;
 
 import org.springframework.cloud.config.environment.Environment;
 import org.springframework.cloud.config.environment.PropertySource;
