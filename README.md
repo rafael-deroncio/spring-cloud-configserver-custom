@@ -128,9 +128,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 For questions and support, contact:
-- Email: [your_email@example.com](mailto:your_email@example.com)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- Email: [rafael.deroncio@hotmail.com](mailto:rafael.deroncio@hotmail.com)
+- LinkedIn: [Rafael Deroncio](https://linkedin.com/in/rafael-deroncio)
 
----
-
-Adapt the placeholders with your actual values, such as `<username>`, `<repository>`, and your contact information.
